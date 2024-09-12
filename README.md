@@ -14,5 +14,7 @@ Check Log T3rn : ```sudo journalctl -u executor -f```
 
 for check script running in screen : ```screen -r trn```
 for stop script : ```ctrl + c```
+
 for kill screen : ```screen -S trn -X kill```
+
 for delete folder script : ```cd /root``` and run ```rm -r restart-t3rn```
