@@ -1,6 +1,7 @@
 This Script auto 1 hours : sudo systemctl restart executor
 
 install : ```git clone https://github.com/Megaxuze/restart-t3rn.git```
+
 go to folder ```cd restart-t3rn```
 
 Install NodeJs : ```nvm install 22.8.0```
