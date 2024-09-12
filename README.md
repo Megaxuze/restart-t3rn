@@ -8,6 +8,7 @@ Install NodeJs : ```nvm install 22.8.0```
 create screen : ```screen -S trn```
 Run script : ```node main.js```
 close screen : ctrl + ad
+
 Check Log T3rn : ```sudo journalctl -u executor -f```
 
 for check script running in screen : ```screen -r trn```
