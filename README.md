@@ -14,6 +14,10 @@ Check Log T3rn : ```sudo journalctl -u executor -f```
 
 
 
+
+
+
+
 --TROUBLESHOOTING--
 
 for check script running in screen : ```screen -r trn```
