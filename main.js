@@ -3,15 +3,15 @@ const { exec } = require('child_process');
 // Fungsi untuk menampilkan pesan saat install/git clone
 function showInstallationMessage() {
     const message = `
-    echo -e "\\033[0;35m";
+    echo "\\033[0;35m";
     echo "=====================================================";
     echo "                  AIRDROP ASC                        ";
     echo "=====================================================";
-    echo -e '\\e[0;35mCredit By :\\e[0;35m Airdrop ASC';
-    echo -e '\\e[0;35mTelegram Channel :\\e[0;35m @airdropasc';
-    echo -e '\\e[0;35mTelegram Group :\\e[0;35m @autosultan_group';
+    echo '\\e[0;35mCredit By :\\e[0;35m Airdrop ASC';
+    echo '\\e[0;35mTelegram Channel :\\e[0;35m @airdropasc';
+    echo '\\e[0;35mTelegram Group :\\e[0;35m @autosultan_group';
     echo "=====================================================";
-    echo -e "\\e[0m";
+    echo "\\e[0m";
     `;
 
     exec(message, (error, stdout, stderr) => {
